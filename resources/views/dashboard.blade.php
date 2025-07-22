@@ -69,13 +69,19 @@
         <h2 class="text-2xl font-semibold mt-12 mb-4">🎬 Video Edukasi</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             @foreach ($videos as $video)
-            <div class="bg-white shadow-md hover:shadow-xl transition rounded-2xl overflow-hidden">
+            <div class="bg-white rounded-xl shadow overflow-hidden">
                 <div class="aspect-w-16 aspect-h-9">
-                    <iframe class="w-full h-full" src="{{ $video->url }}" frameborder="0" allowfullscreen></iframe>
+                    <iframe 
+                        src="{{ $video->url }}" 
+                        frameborder="0" 
+                        allowfullscreen 
+                        class="w-full h-full">
+                    </iframe>
                 </div>
                 <div class="p-4">
-                    <h3 class="text-lg font-semibold text-gray-800">{{ $video->title }}</h3>
+                    <h3 class="text-lg font-semibold">{{ $video->title }}</h3>
                 </div>
+            </div>
             @endforeach
         </div>
     </main>
