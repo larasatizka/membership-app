@@ -9,7 +9,7 @@
 
 ## Demo Link Video
 
-https://youtu.be/RG540id4cSI
+https://www.youtube.com/watch?v=RG540id4cSI
 
 Sebuah project Laravel dengan fitur:
 - Login/Register menggunakan Email/Password dan Google/Facebook
