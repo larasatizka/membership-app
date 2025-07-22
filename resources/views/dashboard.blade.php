@@ -1,10 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="min-h-screen flex bg-gradient-to-br from-white via-indigo-50 to-indigo-100 relative">
+<div class="min-h-screen flex bg-gradient-to-br from-indigo-100 via-indigo-300 to-indigo-500 relative" style="margin-top: -25px;">
+    <div class="absolute inset-0 bg-[url('https://www.toptal.com/designers/subtlepatterns/uploads/double-bubble-outline.png')] opacity-20 bg-cover z-0"></div>
 
-    <!-- Background pattern SVG -->
-    <div class="absolute inset-0 bg-[url('https://www.toptal.com/designers/subtlepatterns/uploads/double-bubble-outline.png')] opacity-5 z-0"></div>
 
     <!-- Sidebar -->
     <aside class="w-64 bg-white shadow-lg border-r z-10 hidden md:block">
