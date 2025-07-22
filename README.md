@@ -50,4 +50,7 @@ Sebuah project Laravel dengan fitur:
 <br />
 
 #### Gambar:Artikel Harian
+<br />
+<img src="https://github.com/larasatizka/membership-app/blob/main/artikel-member.png?raw=true" width="1200px">
+<br />
 
