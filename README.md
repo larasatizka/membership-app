@@ -16,6 +16,7 @@ Sebuah project Laravel dengan fitur:
 - Role Membership (A, B, C)
 - Dashboard interaktif dengan TailwindCSS
 - Statistik dan artikel/video dinamis
+- Otomatis mengirimkan artikel harian
 
 ## System
 - Framework Laravel
@@ -47,3 +48,6 @@ Sebuah project Laravel dengan fitur:
 <br />
 <img src="https://github.com/larasatizka/membership-app/blob/main/dashboard-member.png?raw=true" width="1200px">
 <br />
+
+#### Gambar:Artikel Harian
+
